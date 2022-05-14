@@ -10,6 +10,7 @@ class exception{
     }
     void handelException() {
         try {
+        	
             int b=0;
             int a=10/b;
             System.out.println(a);
