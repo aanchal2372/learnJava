@@ -1,4 +1,4 @@
-package unit_03;
+package Unit_03;
 
 import java.util.Scanner;
 import java.util.*;
@@ -103,7 +103,7 @@ class ABCDE{
 			System.out.println("the try catch is finished");
 		}
 	}
-	/*lazy binding-it doesnt handle exception itself but throw an exception */
+	/*lazy binding-it doesn't handle exception itself but throw an exception */
 	void useOfThrow(int age) throws Exception{//u can use many exception by putting comma
 		
 		if(age<18)
