@@ -11,6 +11,7 @@ public class P5_Task01_ClassesAndObjectInJava {
 
 }
 
+
 class ABC2{
     int a=10;
     //static int a=10;
