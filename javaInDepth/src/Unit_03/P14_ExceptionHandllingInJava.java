@@ -114,7 +114,7 @@ class exception{
 
 		// Checked Exception [Run this code over terminal and check compiler error]
 		try {
-			useOfThrow(19);
+			useofThrow(19);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
