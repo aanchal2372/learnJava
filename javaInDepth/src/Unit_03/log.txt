@@ -1,1 +1,0 @@
-Value of a: 11, The Program executed at: 09:40:39.379025700 2022-05-20
