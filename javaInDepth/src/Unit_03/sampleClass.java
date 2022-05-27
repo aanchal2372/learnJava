@@ -1,34 +1,26 @@
 package Unit_03;
 
-import java.util.Scanner;
 import java.util.*;
 public class sampleClass {
-
+//if there is a exception in try block but there is no appropriate catch block to catch the exception still finally would run.
+//if there is no exception or exception ,still the finally run.
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//sensitive code
 		
-		try
-		{
-		int b=0;
-		int a=100/b;
-		System.out.println(a);
-		//System.out.println("Done!");
+		try {
+			int a=100/0;
+			System.out.println(a);
 		}
-		catch(ArithmeticException e)
-		{
+		catch(InputMismatchException e) {
 			System.out.println(e.getMessage());
 		}
-		catch(Exception e)
-		{
-			System.out.println(e.getMessage());
-		}
-		//rest of the code
+//		catch(Exception e) {
+//			System.out.println(e.getMessage());
+//		}
+		finally {                              
 		System.out.println("Done!");
-		ABCDE obj =new ABCDE();
-		obj.inputMismatchException();
-		obj.mauallyThrowAnExceptionFromYourCode(3);
-
+		}
 	}
 }
 class ABCDE{
